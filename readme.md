@@ -2,7 +2,8 @@
 **https://surveyemails.herokuapp.com/**
 
 Built with MERN
--MongoDB
--Express
--React
--Node.js
+
+- MongoDB
+- Express
+- React
+- Node.js
