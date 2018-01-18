@@ -1,5 +1,10 @@
 const express = require('express');
 require('./services/passport');
+const mongoose = require('mongoose');
+const keys = require('./config/keys');
+
+mongoose.connect(keys.mongoURI);
+
 const app = express();
 
 // this doesn't make sense to me
